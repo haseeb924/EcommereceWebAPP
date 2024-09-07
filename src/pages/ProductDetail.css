@@ -1,0 +1,128 @@
+/* Container for the entire page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f4f4f9; /* Light grey background for the page */
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #333; /* Dark grey for better readability */
+}
+
+/* Styling for the main product card */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem; /* Reduced padding for a more compact card */
+    background-color: #ffffff; /* Clean white background for the card */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 1rem; /* Rounded corners for a modern look */
+    margin-bottom: 2rem;
+    border: 2px solid #e0e0e0; /* Light grey border for a subtle outline */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for product card */
+.product-card:hover {
+    border-color: #007bff; /* Blue border on hover */
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Container for the product image */
+.product-image-container {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Styling for product images */
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Limited height for consistency */
+    object-fit: contain;
+    border-radius: 0.75rem; /* Rounded corners for the image */
+}
+
+/* Styling for product titles */
+.product-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #007bff; /* Blue color for title */
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+/* Styling for product descriptions */
+.product-description {
+    font-size: 1.1rem;
+    color: #666; /* Dark grey for readability */
+    margin-bottom: 1rem;
+    line-height: 1.5; /* Increased line height for readability */
+}
+
+/* Styling for product prices */
+.product-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #28a745; /* Green color for price */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Styling for back button */
+.back-button {
+    background-color: #007bff; /* Blue background for button */
+    color: #ffffff; /* White text */
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Styling for related products section */
+.related-products-container {
+    margin-top: 3rem;
+}
+
+/* Heading for related products */
+.related-products-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333; /* Dark grey for readability */
+}
+
+/* Flex container for related products grid */
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Styling for individual product cards within the grid */
+.products-grid .product-card {
+    flex: 1 1 calc(25% - 2rem);
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Light grey border for definition */
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.products-grid .product-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}

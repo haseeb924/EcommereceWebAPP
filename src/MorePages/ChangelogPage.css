@@ -1,0 +1,47 @@
+/* src/Pages/ChangelogPage.css */
+
+.changelog-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .changelog-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .changelog-page p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .changelog-entry {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .changelog-entry h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .changelog-entry ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .changelog-entry li {
+    margin-bottom: 5px;
+  }
+  

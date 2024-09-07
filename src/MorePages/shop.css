@@ -1,0 +1,109 @@
+/* Overall container for the shop */
+.shop-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header section for the shop */
+  .product-header {
+    background-color: #f3f4f6;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Main heading for the shop */
+  .shop-heading {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  /* Description text for products */
+  .product-description {
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Main content layout for sidebar and product grid */
+  .shop-content {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+  }
+  
+  /* Sidebar styling for categories */
+  .category-sidebar {
+    width: 200px;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+    margin-right: 20px;
+  }
+  
+  .category-sidebar h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #374151;
+  }
+  
+  .category-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-sidebar li {
+    padding: 0.5rem 0;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .category-sidebar li:hover,
+  .category-sidebar .active-category {
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Product grid styling for responsiveness */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding-left: 20px;
+    flex-grow: 1;
+  }
+  
+  /* Cart summary section styling */
+  .cart-summary {
+    margin-top: 30px;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+  }
+  
+  .cart-summary h2 {
+    margin-bottom: 10px;
+  }
+  
+  .cart-summary ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-summary li {
+    margin-bottom: 8px;
+  }
+  
